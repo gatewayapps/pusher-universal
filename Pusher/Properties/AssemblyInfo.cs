@@ -5,12 +5,12 @@ using System.Resources;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("Pusher")]
-[assembly: AssemblyDescription("Pusher.com client library for .NET")]
+[assembly: AssemblyTitle("pusher-unversal")]
+[assembly: AssemblyDescription("Pusher.com client library for Universal Apps")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Digital Creations AS.")]
-[assembly: AssemblyProduct("Pusher")]
-[assembly: AssemblyCopyright("Copyright © 2013 Digital Creations AS")]
+[assembly: AssemblyCompany("Gateway Apps")]
+[assembly: AssemblyProduct("pusher-universal")]
+[assembly: AssemblyCopyright("Copyright © 2015 Gateway Apps")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 [assembly: NeutralResourcesLanguage("en")]
@@ -26,5 +26,5 @@ using System.Resources;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 
-[assembly: AssemblyVersion("0.0.1.*")]
+[assembly: AssemblyVersion("1.0.0.*")]
 [assembly: AssemblyFileVersion("0.0.1.0")]
