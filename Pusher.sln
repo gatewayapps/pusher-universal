@@ -23,6 +23,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PusherTest.Windows", "Pushe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PusherTest.WindowsPhone", "PusherTest\PusherTest.WindowsPhone\PusherTest.WindowsPhone.csproj", "{A6D64211-F295-4BE6-8A7F-C6E9135F280D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{80A1C004-8B4E-476F-926B-4195B6CCFD0D}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		PusherTest\PusherTest.Shared\PusherTest.Shared.projitems*{a6d64211-f295-4be6-8a7f-c6e9135f280d}*SharedItemsImports = 4
