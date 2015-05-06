@@ -166,6 +166,16 @@ namespace Pusher
 			await _connection.SendMessage(json);
 		}
 
+		public async Task TriggerEvent<T>(T data)
+		{
+			var e = new OutgoingEvent<T>();
+			e.Data = data;
+
+			await TriggerEventAsync<T>(e);
+			
+
+		}
+
 		private async Task<Channel> SubscribeToChannelAsync(string channelName, bool checkChannelList)
 		{
 			if (checkChannelList && _channels.ContainsKey(channelName))
